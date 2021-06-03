@@ -3,7 +3,8 @@
         "target": "es5",
         "module": "ES2015",
         "sourceMap": true,
-        "moduleResolution": "classic",
+        "moduleResolution": "Node",
+        "declaration": true,
         "lib": [
             "es7",
             "dom"
@@ -17,7 +18,7 @@
         "experimentalDecorators": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "noImplicitAny": true
+        "noImplicitAny": true,
     },
     "files": [
         "src/index.ts",
