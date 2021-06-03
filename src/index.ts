@@ -12,5 +12,5 @@
  * http://www.denso-wave.com/qrcode/faqpatent-e.html
  */
 
-export { Html5Qrcode } from "./html5-qrcode";
-export { Html5QrcodeScanner } from "./html5-qrcode-scanner";
+export * from './html5-qrcode';
+export * from './html5-qrcode-scanner';
